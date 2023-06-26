@@ -40,7 +40,7 @@ const product: SchemaTypeDefinition = {
       options: {
         list: [
           { title: 'Jackets', value: 'jackets' },
-          { title: 'Shirts', value: 'shirt' },
+          { title: 'Shirts', value: 'shirts' },
           { title: 'Shoes', value: 'shoes' },
         ],
       },

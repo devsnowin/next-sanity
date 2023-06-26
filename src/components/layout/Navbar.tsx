@@ -7,7 +7,7 @@ export default function Navbar() {
         Ns .
       </Link>
       <nav className="flex item-center gap-4">
-        <Link href="/">Shop</Link>
+        <Link href="/store">Shop</Link>
         <Link href="/">Cart</Link>
       </nav>
     </header>
