@@ -17,7 +17,7 @@ export default function FeaturedCard({ product }: FeaturedCard) {
         alt={product.name}
         className="w-20 h-20 object-cover rounded-[10px]"
       />
-      <div className="pt-2">
+      <div className="pt-2 pr-[.1rem]">
         <h3 className="font-bold text-sm">{product.name}</h3>
         <span>₹{product.price}</span>
       </div>

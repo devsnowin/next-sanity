@@ -8,3 +8,12 @@ export type Product = {
   category: 'jackets' | 'shirt' | 'shoes';
   price: number;
 };
+
+export interface CartItem extends Product {
+  quantity: number;
+}
+
+export type CartType = {
+  cartItems: CartItem;
+  totalCost: number;
+};

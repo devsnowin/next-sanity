@@ -1,4 +1,5 @@
 import React from 'react';
+import { Toaster } from '@/components/ui/toaster';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -12,6 +13,7 @@ export default function BaseLayout({ children }: BaseLayoutProps) {
       <Navbar />
       {children}
       <Footer />
+      <Toaster />
     </section>
   );
 }
